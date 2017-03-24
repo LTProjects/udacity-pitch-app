@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8276FCF1E81ACA1008045F5 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8276FCE1E81ACA1008045F5 /* PlaySoundsViewController.swift */; };
+		F884FBDA1E578D6300E0AE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884FBD91E578D6300E0AE82 /* AppDelegate.swift */; };
+		F884FBDC1E578D6300E0AE82 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884FBDB1E578D6300E0AE82 /* RecordSoundsViewController.swift */; };
+		F884FBDF1E578D6300E0AE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F884FBDD1E578D6300E0AE82 /* Main.storyboard */; };
+		F884FBE11E578D6300E0AE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F884FBE01E578D6300E0AE82 /* Assets.xcassets */; };
+		F884FBE41E578D6300E0AE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F884FBE21E578D6300E0AE82 /* LaunchScreen.storyboard */; };
+		F884FBEF1E578D6300E0AE82 /* udacity_tune_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884FBEE1E578D6300E0AE82 /* udacity_tune_appTests.swift */; };
+		F884FBFA1E578D6300E0AE82 /* udacity_tune_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884FBF91E578D6300E0AE82 /* udacity_tune_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F884FBEB1E578D6300E0AE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F884FBCE1E578D6200E0AE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F884FBD51E578D6200E0AE82;
+			remoteInfo = udacity_tune_app;
+		};
+		F884FBF61E578D6300E0AE82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F884FBCE1E578D6200E0AE82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F884FBD51E578D6200E0AE82;
+			remoteInfo = udacity_tune_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8276FCE1E81ACA1008045F5 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		F884FBD61E578D6300E0AE82 /* udacity_tune_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udacity_tune_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F884FBD91E578D6300E0AE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F884FBDB1E578D6300E0AE82 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		F884FBDE1E578D6300E0AE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F884FBE01E578D6300E0AE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F884FBE31E578D6300E0AE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F884FBE51E578D6300E0AE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F884FBEA1E578D6300E0AE82 /* udacity_tune_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udacity_tune_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F884FBEE1E578D6300E0AE82 /* udacity_tune_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udacity_tune_appTests.swift; sourceTree = "<group>"; };
+		F884FBF01E578D6300E0AE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F884FBF51E578D6300E0AE82 /* udacity_tune_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = udacity_tune_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F884FBF91E578D6300E0AE82 /* udacity_tune_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = udacity_tune_appUITests.swift; sourceTree = "<group>"; };
+		F884FBFB1E578D6300E0AE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F884FBD31E578D6200E0AE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F884FBE71E578D6300E0AE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F884FBF21E578D6300E0AE82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F884FBCD1E578D6200E0AE82 = {
+			isa = PBXGroup;
+			children = (
+				F884FBD81E578D6300E0AE82 /* udacity_tune_app */,
+				F884FBED1E578D6300E0AE82 /* udacity_tune_appTests */,
+				F884FBF81E578D6300E0AE82 /* udacity_tune_appUITests */,
+				F884FBD71E578D6300E0AE82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F884FBD71E578D6300E0AE82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F884FBD61E578D6300E0AE82 /* udacity_tune_app.app */,
+				F884FBEA1E578D6300E0AE82 /* udacity_tune_appTests.xctest */,
+				F884FBF51E578D6300E0AE82 /* udacity_tune_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F884FBD81E578D6300E0AE82 /* udacity_tune_app */ = {
+			isa = PBXGroup;
+			children = (
+				F884FBD91E578D6300E0AE82 /* AppDelegate.swift */,
+				F884FBDB1E578D6300E0AE82 /* RecordSoundsViewController.swift */,
+				F884FBDD1E578D6300E0AE82 /* Main.storyboard */,
+				F884FBE21E578D6300E0AE82 /* LaunchScreen.storyboard */,
+				F884FBE51E578D6300E0AE82 /* Info.plist */,
+				F8276FCE1E81ACA1008045F5 /* PlaySoundsViewController.swift */,
+				F884FBE01E578D6300E0AE82 /* Assets.xcassets */,
+			);
+			path = udacity_tune_app;
+			sourceTree = "<group>";
+		};
+		F884FBED1E578D6300E0AE82 /* udacity_tune_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				F884FBEE1E578D6300E0AE82 /* udacity_tune_appTests.swift */,
+				F884FBF01E578D6300E0AE82 /* Info.plist */,
+			);
+			path = udacity_tune_appTests;
+			sourceTree = "<group>";
+		};
+		F884FBF81E578D6300E0AE82 /* udacity_tune_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F884FBF91E578D6300E0AE82 /* udacity_tune_appUITests.swift */,
+				F884FBFB1E578D6300E0AE82 /* Info.plist */,
+			);
+			path = udacity_tune_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F884FBD51E578D6200E0AE82 /* udacity_tune_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F884FBFE1E578D6300E0AE82 /* Build configuration list for PBXNativeTarget "udacity_tune_app" */;
+			buildPhases = (
+				F884FBD21E578D6200E0AE82 /* Sources */,
+				F884FBD31E578D6200E0AE82 /* Frameworks */,
+				F884FBD41E578D6200E0AE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = udacity_tune_app;
+			productName = udacity_tune_app;
+			productReference = F884FBD61E578D6300E0AE82 /* udacity_tune_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F884FBE91E578D6300E0AE82 /* udacity_tune_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F884FC011E578D6300E0AE82 /* Build configuration list for PBXNativeTarget "udacity_tune_appTests" */;
+			buildPhases = (
+				F884FBE61E578D6300E0AE82 /* Sources */,
+				F884FBE71E578D6300E0AE82 /* Frameworks */,
+				F884FBE81E578D6300E0AE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F884FBEC1E578D6300E0AE82 /* PBXTargetDependency */,
+			);
+			name = udacity_tune_appTests;
+			productName = udacity_tune_appTests;
+			productReference = F884FBEA1E578D6300E0AE82 /* udacity_tune_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F884FBF41E578D6300E0AE82 /* udacity_tune_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F884FC041E578D6300E0AE82 /* Build configuration list for PBXNativeTarget "udacity_tune_appUITests" */;
+			buildPhases = (
+				F884FBF11E578D6300E0AE82 /* Sources */,
+				F884FBF21E578D6300E0AE82 /* Frameworks */,
+				F884FBF31E578D6300E0AE82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F884FBF71E578D6300E0AE82 /* PBXTargetDependency */,
+			);
+			name = udacity_tune_appUITests;
+			productName = udacity_tune_appUITests;
+			productReference = F884FBF51E578D6300E0AE82 /* udacity_tune_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F884FBCE1E578D6200E0AE82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Lev Tsenovoy";
+				TargetAttributes = {
+					F884FBD51E578D6200E0AE82 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F884FBE91E578D6300E0AE82 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F884FBD51E578D6200E0AE82;
+					};
+					F884FBF41E578D6300E0AE82 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F884FBD51E578D6200E0AE82;
+					};
+				};
+			};
+			buildConfigurationList = F884FBD11E578D6200E0AE82 /* Build configuration list for PBXProject "udacity_tune_app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F884FBCD1E578D6200E0AE82;
+			productRefGroup = F884FBD71E578D6300E0AE82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F884FBD51E578D6200E0AE82 /* udacity_tune_app */,
+				F884FBE91E578D6300E0AE82 /* udacity_tune_appTests */,
+				F884FBF41E578D6300E0AE82 /* udacity_tune_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F884FBD41E578D6200E0AE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F884FBE41E578D6300E0AE82 /* LaunchScreen.storyboard in Resources */,
+				F884FBE11E578D6300E0AE82 /* Assets.xcassets in Resources */,
+				F884FBDF1E578D6300E0AE82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F884FBE81E578D6300E0AE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F884FBF31E578D6300E0AE82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F884FBD21E578D6200E0AE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F884FBDC1E578D6300E0AE82 /* RecordSoundsViewController.swift in Sources */,
+				F8276FCF1E81ACA1008045F5 /* PlaySoundsViewController.swift in Sources */,
+				F884FBDA1E578D6300E0AE82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F884FBE61E578D6300E0AE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F884FBEF1E578D6300E0AE82 /* udacity_tune_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F884FBF11E578D6300E0AE82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F884FBFA1E578D6300E0AE82 /* udacity_tune_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F884FBEC1E578D6300E0AE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F884FBD51E578D6200E0AE82 /* udacity_tune_app */;
+			targetProxy = F884FBEB1E578D6300E0AE82 /* PBXContainerItemProxy */;
+		};
+		F884FBF71E578D6300E0AE82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F884FBD51E578D6200E0AE82 /* udacity_tune_app */;
+			targetProxy = F884FBF61E578D6300E0AE82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F884FBDD1E578D6300E0AE82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F884FBDE1E578D6300E0AE82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F884FBE21E578D6300E0AE82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F884FBE31E578D6300E0AE82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F884FBFC1E578D6300E0AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F884FBFD1E578D6300E0AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F884FBFF1E578D6300E0AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = udacity_tune_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JigglyPuff.udacity-tune-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F884FC001E578D6300E0AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = udacity_tune_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JigglyPuff.udacity-tune-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F884FC021E578D6300E0AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = udacity_tune_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JigglyPuff.udacity-tune-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/udacity_tune_app.app/udacity_tune_app";
+			};
+			name = Debug;
+		};
+		F884FC031E578D6300E0AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = udacity_tune_appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JigglyPuff.udacity-tune-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/udacity_tune_app.app/udacity_tune_app";
+			};
+			name = Release;
+		};
+		F884FC051E578D6300E0AE82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = udacity_tune_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JigglyPuff.udacity-tune-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = udacity_tune_app;
+			};
+			name = Debug;
+		};
+		F884FC061E578D6300E0AE82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = udacity_tune_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JigglyPuff.udacity-tune-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = udacity_tune_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F884FBD11E578D6200E0AE82 /* Build configuration list for PBXProject "udacity_tune_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F884FBFC1E578D6300E0AE82 /* Debug */,
+				F884FBFD1E578D6300E0AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F884FBFE1E578D6300E0AE82 /* Build configuration list for PBXNativeTarget "udacity_tune_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F884FBFF1E578D6300E0AE82 /* Debug */,
+				F884FC001E578D6300E0AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F884FC011E578D6300E0AE82 /* Build configuration list for PBXNativeTarget "udacity_tune_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F884FC021E578D6300E0AE82 /* Debug */,
+				F884FC031E578D6300E0AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F884FC041E578D6300E0AE82 /* Build configuration list for PBXNativeTarget "udacity_tune_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F884FC051E578D6300E0AE82 /* Debug */,
+				F884FC061E578D6300E0AE82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F884FBCE1E578D6200E0AE82 /* Project object */;
+}
