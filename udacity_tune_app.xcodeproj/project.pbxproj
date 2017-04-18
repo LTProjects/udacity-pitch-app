@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F8276FCF1E81ACA1008045F5 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8276FCE1E81ACA1008045F5 /* PlaySoundsViewController.swift */; };
+		F8276FD11E859BF3008045F5 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8276FD01E859BF3008045F5 /* PlaySoundsViewController+Audio.swift */; };
 		F884FBDA1E578D6300E0AE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884FBD91E578D6300E0AE82 /* AppDelegate.swift */; };
 		F884FBDC1E578D6300E0AE82 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884FBDB1E578D6300E0AE82 /* RecordSoundsViewController.swift */; };
 		F884FBDF1E578D6300E0AE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F884FBDD1E578D6300E0AE82 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		F8276FCE1E81ACA1008045F5 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		F8276FD01E859BF3008045F5 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		F884FBD61E578D6300E0AE82 /* udacity_tune_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = udacity_tune_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F884FBD91E578D6300E0AE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F884FBDB1E578D6300E0AE82 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F884FBE51E578D6300E0AE82 /* Info.plist */,
 				F8276FCE1E81ACA1008045F5 /* PlaySoundsViewController.swift */,
 				F884FBE01E578D6300E0AE82 /* Assets.xcassets */,
+				F8276FD01E859BF3008045F5 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = udacity_tune_app;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F884FBDC1E578D6300E0AE82 /* RecordSoundsViewController.swift in Sources */,
+				F8276FD11E859BF3008045F5 /* PlaySoundsViewController+Audio.swift in Sources */,
 				F8276FCF1E81ACA1008045F5 /* PlaySoundsViewController.swift in Sources */,
 				F884FBDA1E578D6300E0AE82 /* AppDelegate.swift in Sources */,
 			);
